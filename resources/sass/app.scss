@@ -1,0 +1,44 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200;1,300;1,700&display=swap');
+
+$primary: #086971;
+$border-radius:1.5rem;
+$border-radius-sm:1.5rem;
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+@import "~venobox/dist/venobox.min.css";
+
+
+.logo-img{
+    height: 50px;
+}
+.user-img{
+    width: 50px;
+    height: 50px;
+}
+.cover-img{
+    height: 350px;
+    object-fit:cover;
+}
+
+.description{
+    white-space: pre-line;
+}
+.overflow-scroll{
+    overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+.profile-img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
